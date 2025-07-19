@@ -1,0 +1,1 @@
+Live attention tracer using Rich heat‑maps.

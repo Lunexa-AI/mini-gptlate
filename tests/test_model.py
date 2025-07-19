@@ -1,0 +1,1 @@
+Basic smoke test to instantiate the model and run a forward pass.

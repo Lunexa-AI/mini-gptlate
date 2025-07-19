@@ -1,0 +1,1 @@
+Round‑trip encoding tests for the tokeniser.

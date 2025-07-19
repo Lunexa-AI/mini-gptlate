@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mini-gptlate"
+version = "0.1.0"
+description = "Ultra‑light GPT‑2‑class model with live attention tracing"
+authors = [ { name = "YOUR NAME", email = "you@example.com" } ]
+license = { text = "MIT" }
+dynamic = ["dependencies"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black~=24.0",
+    "flake8",
+    "rich",
+]
+
+[tool.setuptools.packages.find]
+include = ["mini_gptlate*"]
